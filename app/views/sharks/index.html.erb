@@ -1,1 +1,11 @@
 <h1>Sharks</h1>
+
+<ul>
+    <% @sharks.all do |shark| %>
+        <li>
+            <%= shark.name %><br>
+            <%= shark.length %>
+            <img src >
+        </li>
+        <% end %>
+</ul>
